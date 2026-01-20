@@ -8,6 +8,9 @@ function draw() {
 }
 
 function drawTarget(x, y) {
+  return ellipse (width/2, height/2, 30, 30);
+}
+function drawTarget(x, y) {
+return ellipse (width/2, height/2, 20, 20);
 
-  
 }
