@@ -9,7 +9,7 @@ function setup() {
 function draw() {
   background(0);
   lights();
-  phaseAnimation += 0.1;
+  phaseAnimation += 0.05;
   phaseAnimation = phaseAnimation % 40;
   for(let i = 0; i < 30; i++){
     drawMoon(i, -height/2);
